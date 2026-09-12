@@ -1,7 +1,7 @@
 # 🌳 WATSA GUARD - IA pour Watsa (Haut-Uele)
 
 ### Projet AMMI Rwanda 2026 - Par Victor Lengenasemin (ISPT Gemena)
-**Originaire de Karawa, Nord-Ubangi**
+**Originaire du Sud-Ubangi | résidant à Karawa, Nord-Ubangi**
 
 > Système d'IA pour la détection de la déforestation en temps réel à Watsa (500ha/an) à partir d'images Sentinel-2.
 
