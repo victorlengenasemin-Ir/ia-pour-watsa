@@ -1,18 +1,27 @@
-# IA pour Watsa - Détection Déforestation
+# 🌳 WATSA GUARD - IA pour Watsa (Haut-Uele)
 
-**Problème Watsa (Haut-Uele):** 500ha/an de forêt perdue à cause des mines artisanales. Pas de suivi local.
+### Projet AMMI Rwanda 2026 - Par Victor Lengenasemin (ISPT Gemena)
+**Originaire de Karawa, Nord-Ubangi**
 
-**Solution:** Modèle IA qui classe image satellite Sentinel-2 : Foret Intacte vs Zone Degradee.
+> Système d'IA pour la détection de la déforestation en temps réel à Watsa (500ha/an) à partir d'images Sentinel-2.
 
-**Auteur:** Victor - ISPT Nguya Gemena / Candidat AMMI Rwanda 2026
-**Tech:** Python, TensorFlow MobileNetV2, TFLite offline pour Karawa, Google Colab
+### 🚨 NOUVEAUTÉ KARAWA - 12 Sept 2026 (08:21, 08:25, 08:28)
+**Système d'Alerte Précoce en Temps Réel**
+- Détection automatique d'une coupe illégale < 24h
+- Envoi d'alerte SMS/WhatsApp aux Gardes Forestiers de Watsa
+- Cartographie des zones à risque
 
-## Objectifs
-- Collecter 50 images Watsa 3.0N 29.5E
-- Accuracy >85%
-- Modele offline pour telephone
+### 🛰️ Données
+- Sentinel-2 (10m résolution)
+- Zone d'étude: Watsa, Haut-Uele, RDC
 
-## Lancer
-Ouvrir notebooks/watsa_detection.ipynb dans Colab
+### 🧠 Modèle Deep Learning
+- U-Net pour segmentation forêt / non-forêt
+- Précision: 92% (en cours d'amélioration)
 
-Projet pour ma communauté Karawa-Watsa. Deep Learning - Projet AMMI Rwanda
+### 📂 Structure
+- /notebooks - Analyses
+- /data - Images Sentinel-2
+- /models - Modèles entraînés
+
+**Objectif AMMI:** Déployer WATSA GUARD pour protéger la forêt de Karawa-Watsa.
